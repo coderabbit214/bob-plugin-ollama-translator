@@ -7,7 +7,7 @@
   "icon": "",
   "author": "coderabbit214 <coderabbitjiang@gmail.com>",
   "homepage": "https://github.com/coderabbit214/bob-plugin-ollama-translator",
-  "appcast": "https://github.com/coderabbit214/bob-plugin-ollama-translator/blob/main/appcast.json",
+  "appcast": "https://raw.githubusercontent.com/coderabbit214/bob-plugin-ollama-translator/main/appcast.json",
   "minBobVersion": "0.10.3",
   "options": [
     {

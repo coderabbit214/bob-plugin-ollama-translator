@@ -1,6 +1,12 @@
 {
   "identifier": "coderabbit214.ollama.translator",
   "versions": [
-   
+    {
+      "version": "0.10.3",
+      "desc": "Update appcast.json",
+      "sha256": "592fca0a74ce0b2877703271e8c32f6f2147536dc7bb5cebb80b73f5b60e2c3d",
+      "url": "https://github.com/coderabbit214/bob-plugin-ollama-translator/releases/download/v0.10.3/ollama-translator-0.10.3.bobplugin",
+      "minBobVersion": "0.10.3"
+    }
   ]
 }

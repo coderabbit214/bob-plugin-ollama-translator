@@ -120,6 +120,9 @@ function handleGeneralResponse(completion, result, query) {
 
     let targetText = message.content
 
+    // 删除 <think> ... </think> 标签
+    targetText = targetText.replace(/<think>[\s\S]*?<\/think>/g, '');
+
     // 使用正则表达式删除字符串开头和结尾的特殊字符
     targetText = targetText.replace(/^(『|「|"|“)|(』|」|"|”)$/g, "");
 
